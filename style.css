@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.hero{
+	width: 100%;
+	height: 100%;
+	background-image: url('cairn-2776470_1920.jpg');
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	
+}
+.form_box{
+	width: 380px;
+	height: 450px;
+	background-color: #fff;
+	top: 20%;
+	left: 40%;
+	position: relative;
+	padding: 5px;
+	overflow: hidden;
+
+}
+.button_box{
+	width: 220px;
+	margin:35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+
+}
+.toggle_btn{
+	padding:10px 30px;
+	outline: none;
+	border: 0;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+	
+}
+#button{
+	top: 0;
+	left: 0;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right,#ff105f,#ffad0f);
+	position: absolute;
+	border-radius: 30px;
+	transition: 0.5s;
+
+}
+.input_group{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	margin-left:-10px;
+}
+
+.input_group input[type="text"],input[type="password"],input[type="email"]{
+	border: none;width: 100%;
+	outline: none;
+	background: transparent;
+	color: #000;
+	height: 40px;
+	border-bottom: 1px solid #657104;
+	position: relative;
+}
+
+.input_group button[type="submit"]{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	border:0;
+	outline: none;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right,#ff105f,#ffad0f);
+	border-radius: 30px;
+}
+.check-box{
+	margin: 30px 10px 30px 0;
+}	
+span{
+	color: #777;
+	font-size: 12px; 
+	bottom: 68px;
+	position: absolute;
+}
+#Login{
+	left: 50px;
+}
+#Register{
+	left: 450px;
+}
